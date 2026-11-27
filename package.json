@@ -1,0 +1,19 @@
+{
+  "name": "thunder-ultimate-v15",
+  "version": "15.2.0",
+  "description": "Thunder Ultimate v15.2 Clean - Private Mode Fixed",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.6.7",
+    "moment-timezone": "^0.5.45",
+    "pino": "^8.16.2",
+    "yt-search": "^2.12.1"
+  }
+}
