@@ -1,0 +1,11 @@
+services:
+    - type: web
+    name: thunder-ultimate
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+            - key: PAIRING_NUMBER
+        value: 263778724084
+            - key: MODE
+        value: public
